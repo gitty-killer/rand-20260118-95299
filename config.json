@@ -1,0 +1,13 @@
+{
+  "project_title": "Developer Onboarding Plan",
+  "goal": "Monitor onboarding progress and readiness gaps.",
+  "entity_name": "task",
+  "amount_label": "hours",
+  "score_label": "readiness_score",
+  "categories": [
+    "setup",
+    "learning",
+    "pairing",
+    "ownership"
+  ]
+}

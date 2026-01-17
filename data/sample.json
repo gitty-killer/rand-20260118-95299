@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "task-01",
+      "name": "task_01",
+      "category": "setup",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "task-02",
+      "name": "task_02",
+      "category": "learning",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "task-03",
+      "name": "task_03",
+      "category": "pairing",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "task-04",
+      "name": "task_04",
+      "category": "ownership",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "task-05",
+      "name": "task_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "task-06",
+      "name": "task_06",
+      "category": "learning",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "task-07",
+      "name": "task_07",
+      "category": "pairing",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "task-08",
+      "name": "task_08",
+      "category": "ownership",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "task-09",
+      "name": "task_09",
+      "category": "setup",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "task-10",
+      "name": "task_10",
+      "category": "learning",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "task-11",
+      "name": "task_11",
+      "category": "pairing",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "task-12",
+      "name": "task_12",
+      "category": "ownership",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "task-12",
+    "issue_count": 1
+  }
+}
